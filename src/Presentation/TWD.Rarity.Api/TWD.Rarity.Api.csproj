@@ -13,11 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Core\TWD.Rarity.Api.Core\TWD.Rarity.Api.Core.csproj" />
+    <ProjectReference Include="..\..\Core\TWD.Rarity.Db.Core\TWD.Rarity.Db.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\TWD.Rarity.Db.Base\TWD.Rarity.Db.Base.csproj" />
   </ItemGroup>
 
 </Project>
