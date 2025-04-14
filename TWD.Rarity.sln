@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWD.Rarity.Core", "src\Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWD.Rarity.Base", "src\Infrastructure\TWD.Rarity.Base\TWD.Rarity.Base.csproj", "{7F559A12-EC68-4740-A1E4-998CDD0D7985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWD.Rarity.Application", "TWD.Rarity.Application\TWD.Rarity.Application.csproj", "{12D472EE-D46C-4B4A-9663-9148A5ABD7AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWD.Rarity.Application", "src\Core\TWD.Rarity.Application\TWD.Rarity.Application.csproj", "{12D472EE-D46C-4B4A-9663-9148A5ABD7AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
