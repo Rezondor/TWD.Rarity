@@ -15,11 +15,11 @@
 
 ```sql
 -- Создание базы данных
-CREATE DATABASE your_db;
+CREATE DATABASE RarityDb;
 
 -- Создание таблицы
-CREATE TABLE rarities (
+CREATE TABLE item_rarities (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
-    chance FLOAT NOT NULL
+    chance INT NOT NULL
 );
